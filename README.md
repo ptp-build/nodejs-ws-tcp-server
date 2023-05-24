@@ -1,15 +1,13 @@
-# wai-chat-bot
+# nodejs-ws-tcp-server
 
-a btc Wai chat
+a node js websocket and tcp server
 
 ## Run
 ```
-cp wrangler.dist.toml wrangler.toml
 npm start
 ```
 
-## Deploy
+## test
 ```
-cp wrangler.dist.toml wrangler.prod.toml
-npm start
+npm run test
 ```
