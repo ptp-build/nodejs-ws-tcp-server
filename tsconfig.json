@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"allowJs": true,
+		"outDir": "./dist/server",
+		"strict": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"types": ["@cloudflare/workers-types", "jest"],
+		"typeRoots": ["node_modules/@types"],
+		"allowSyntheticDefaultImports": true
+	},
+	"exclude": ["dist", "node_modules"]
+}
